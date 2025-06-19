@@ -1,0 +1,5 @@
+Python path: /gscratch/stf/ssuyash/miniconda/miniconda3/envs/dt_env/bin/python
+Torch: 2.0.1+cu117 CUDA? True
+SB3: 2.4.1
+finished training — best val CE 0.266
+Evaluation over 20 eps — avg return 199.9 ± 0.4
