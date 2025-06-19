@@ -72,7 +72,7 @@ sbatch dt_plots.slurm
 | File                           | Purpose                                          |
 |--------------------------------|--------------------------------------------------|
 | `decision_transformer_cartpole.py` | Offline dataset creation, training loop, evaluation |
-| `best_dt.pt`                   | Pre-trained weights (~3 MB)                      |
+| `best_dt.pt`                   | Pre-trained weights (~5 MB)                      |
 | `run_dt.slurm`                 | ≈18-minute training job for one GPU node           |
 | `dt_plots.slurm`               | SLURM job to generate all figures                |
 | `target_vs_return.py`          | RTG target vs. achieved return plot              |
