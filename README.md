@@ -12,10 +12,13 @@ The script **`decision_transformer_cartpole.py`**
 
 All ancillary scripts and SLURM job files are provided to reproduce the run, generate the figures below, and inspect the model’s internals.
 
+<p align="center" style="display:flex; gap:12px; justify-content:center;">
+  <img src="rtg_vs_return.png" width="360" alt="RTG vs Return">
+  <img src="return_histogram.png" width="360" alt="Return Histogram">
+</p>
+
 <p align="center">
-  <img src="rtg_vs_return.png" width="420">  
-  <img src="return_histogram.png" width="420"><br>
-  <em>Left:</em> How closely the DT hits user-specified RTG targets.<br>
+  <em>Left:</em> How closely the DT hits user-specified RTG targets. &nbsp;|&nbsp;
   <em>Right:</em> Episode-return distribution of the offline data vs. the trained DT policy.
 </p>
 
