@@ -122,7 +122,7 @@ See the `Config` dataclass at the top of `decision_transformer_cartpole.py` for 
 }
 ```
 
-Please cite this repo if you use it in your work.
-
 ## License
 This project is released under the MIT License. See [LICENSE](./LICENSE).
+
+Please cite this repo if you use it in your work.
